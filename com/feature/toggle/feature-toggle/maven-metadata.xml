@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.feature.toggle</groupId>
+  <artifactId>feature-toggle</artifactId>
+  <versioning>
+    <versions>
+      <version>0.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250526122220</lastUpdated>
+  </versioning>
+</metadata>

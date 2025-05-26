@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.feature.toggle</groupId>
+  <artifactId>feature-toggle</artifactId>
+  <versioning>
+    <lastUpdated>20250526122220</lastUpdated>
+    <snapshot>
+      <timestamp>20250526.122220</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-20250526.122220-1</value>
+        <updated>20250526122220</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-20250526.122220-1</value>
+        <updated>20250526122220</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.1-SNAPSHOT</version>
+</metadata>
