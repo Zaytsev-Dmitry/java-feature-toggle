@@ -1,4 +1,4 @@
-package com.feature.toggle;
+package com.feature.toggle.core;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

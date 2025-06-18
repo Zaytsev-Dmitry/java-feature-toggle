@@ -1,4 +1,6 @@
-package com.feature.toggle;
+package com.feature.toggle.postgres;
+
+import com.feature.toggle.core.FeatureToggleService;
 
 import javax.sql.DataSource;
 import java.sql.*;
