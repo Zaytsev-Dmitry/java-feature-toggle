@@ -93,6 +93,7 @@
 					<includes><include>**/*</include></includes>
 					<repositoryName>java-feature-toggle</repositoryName>
 					<repositoryOwner>Zaytsev-Dmitry</repositoryOwner>
+					<merge>true</merge>
 				</configuration>
 				<executions>
 					<execution>
