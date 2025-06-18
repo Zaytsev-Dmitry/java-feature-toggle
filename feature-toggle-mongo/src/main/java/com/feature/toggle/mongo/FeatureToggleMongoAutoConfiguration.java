@@ -1,18 +1,19 @@
-package com.feature.toggle;
+package com.feature.toggle.mongo;
 
+import com.feature.toggle.core.FeatureToggleAspect;
+import com.feature.toggle.core.FeatureToggleService;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import javax.sql.DataSource;
+import org.springframework.data.mongodb.core.MongoTemplate;
 
 @Configuration
-public class FeatureToggleAutoConfiguration {
+public class FeatureToggleMongoAutoConfiguration {
 
     @Bean
     @ConditionalOnMissingBean(FeatureToggleService.class)
-    public FeatureToggleService featureToggleService(final DataSource dataSource) {
-        return new JdbcFeatureToggleService(dataSource);
+    public FeatureToggleService featureToggleService(final MongoTemplate mongoTemplate) {
+        return new MongoFeatureToggleService(mongoTemplate);
     }
 
     @Bean
